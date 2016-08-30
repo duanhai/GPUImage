@@ -33,6 +33,9 @@
 		574B5D8B1BEA3CC000F4EC5A /* GPUImageColorConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 574B5D891BEA3CC000F4EC5A /* GPUImageColorConversion.m */; };
 		574B5D8D1BEA3E5B00F4EC5A /* GPUImageColorConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 574B5D8C1BEA3E5B00F4EC5A /* GPUImageColorConversion.h */; };
 		574B5D8E1BEA3E5B00F4EC5A /* GPUImageColorConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 574B5D8C1BEA3E5B00F4EC5A /* GPUImageColorConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63774FB21D7651CF00E4F096 /* GPUImage.h in Headers */ = {isa = PBXBuildFile; fileRef = BC245DBF14DDBCF5009FE7EB /* GPUImage.h */; };
+		63774FB31D7651CF00E4F096 /* GPUImagePicture+TextureSubimage.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FFC8091936408F00994258 /* GPUImagePicture+TextureSubimage.h */; };
+		63774FB41D7651CF00E4F096 /* GPUImageHistogramEqualizationFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = A4741D4E19A91F87005EE1A4 /* GPUImageHistogramEqualizationFilter.h */; };
 		6D13DBE6151AA804000B23BA /* GPUImageHazeFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D13DBE4151AA804000B23BA /* GPUImageHazeFilter.h */; };
 		6D13DBE7151AA804000B23BA /* GPUImageHazeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D13DBE5151AA804000B23BA /* GPUImageHazeFilter.m */; };
 		6EE27493150E8FC60040DDB6 /* GPUImageGrayscaleFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE27491150E8FC50040DDB6 /* GPUImageGrayscaleFilter.h */; };
@@ -1741,6 +1744,9 @@
 				79F8FD171C8B2AA00095AB3E /* GPUImageSolarizeFilter.h in Headers */,
 				BC3AA4B21C11104B003B7561 /* GPUImageColourFASTFeatureDetector.h in Headers */,
 				BC3AA4B31C11104E003B7561 /* GPUImageColourFASTSamplingOperation.h in Headers */,
+				63774FB21D7651CF00E4F096 /* GPUImage.h in Headers */,
+				63774FB31D7651CF00E4F096 /* GPUImagePicture+TextureSubimage.h in Headers */,
+				63774FB41D7651CF00E4F096 /* GPUImageHistogramEqualizationFilter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2421,6 +2427,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunsetlakesoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_MODULE_NAME = GPUImage;
 				PRODUCT_NAME = GPUImage;
+				SDKROOT = iphoneos9.3;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2453,6 +2460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunsetlakesoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_MODULE_NAME = GPUImage;
 				PRODUCT_NAME = GPUImage;
+				SDKROOT = iphoneos9.3;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
